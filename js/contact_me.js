@@ -17,16 +17,18 @@ $(function() {
       if (firstName.indexOf(' ') >= 0) {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
+      $("#sendMessageButton").text('Sending…');
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
-        url: "././mail/contact_me.php",
+        url: "https://postmail.invotes.com/send",
         type: "POST",
         data: {
-          name: name,
-          phone: phone,
-          email: email,
-          message: message
+          "access_token": "zg5ajr98wtro2tsk60hbig8d",
+          "subject": "Email from " + name,
+          "text": "You have received a new message from your website contact form.\n\n Here are the details:\n\nName: " + name + "\n\nEmail: "+ email +
+          "\n\nPhone: "+ phone+ "\n\nMessage:\n" + message
+
         },
         cache: false,
         success: function() {
@@ -39,6 +41,7 @@ $(function() {
           $('#success > .alert-success')
             .append('</div>');
           //clear all fields
+          $("#sendMessageButton").text('SEND MESSAGE');
           $('#contactForm').trigger("reset");
         },
         error: function() {
@@ -49,6 +52,7 @@ $(function() {
           $('#success > .alert-danger').append($("<strong>").text("Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!"));
           $('#success > .alert-danger').append('</div>');
           //clear all fields
+          $("#sendMessageButton").text('SEND MESSAGE');
           $('#contactForm').trigger("reset");
         },
         complete: function() {

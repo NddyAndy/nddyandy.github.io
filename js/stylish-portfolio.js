@@ -98,7 +98,7 @@ setInterval(function(){
     speed: 30,
     autoStart: false
   })
-  .delete()
+  .delete();
   type();
  }, 21000);
 
@@ -133,5 +133,5 @@ setInterval(function(){
   .pause(750)
   .options({speed: 50})
   .delete()
-  .type('Basically I make Stuff that works on the web');
+  .type('Basically I make Stuff that works on the web.');
  }
