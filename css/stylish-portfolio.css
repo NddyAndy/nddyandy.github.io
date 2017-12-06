@@ -1,16 +1,7 @@
-/*!
- * Start Bootstrap - Stylish Portfolio (https://startbootstrap.com/template-overviews/stylish-portfolio)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
- */
-
-/* Global Styles */
-
 html, body {
   width: 100%;
   height: 100%;
 }
-
 body {
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -27,7 +18,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 
 /* Custom Button Styles */
 
