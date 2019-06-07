@@ -23,7 +23,7 @@ export default () => (
                         <h2><a href="https://nbte.forum.org.ng/ranking" target="_blank" rel="noopener noreferrer">nbte.forum.org.ng/ranking</a></h2>
                         <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Javascript(Nodejs)</em></p>
 
-                        <p className="description"> A systems that ranks Nigerian institutions based on certain criteria. helping students find favourable instutions.</p>
+                        <p className="description"> A system that ranks Nigerian institutions based on certain criteria. helping students find favourable instutions.</p>
 
                     </div>
 
