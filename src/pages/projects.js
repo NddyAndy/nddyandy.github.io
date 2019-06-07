@@ -12,10 +12,10 @@ export default () => (
                 <div className="porfolio">
 
                     <div className="portfolio-card">
-                        <h2><a href="https://twitter.com/ndiecodes" target="_blank" rel="noopener noreferrer">Teachable.ng</a></h2>
+                        <h2><a href="#" rel="noopener noreferrer">Teachable.ng</a></h2>
                         <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Javascript(Nodejs)</em></p>
 
-                        <p className="description">Teachable helps scouts and parents find competent teachers to hire in the city of Port Harcourt </p>
+                        <p className="description">Teachable helps scouts and parents find competent teachers to hire in the city of Port Harcourt. Still in development though. </p>
 
                     </div>
 
@@ -23,7 +23,7 @@ export default () => (
                         <h2><a href="https://nbte.forum.org.ng/ranking" target="_blank" rel="noopener noreferrer">nbte.forum.org.ng/ranking</a></h2>
                         <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Javascript(Nodejs)</em></p>
 
-                        <p className="description"> A systems that ranks Nigerian institutions based on certain criteria. helping students find favourable instutions. </p>
+                        <p className="description"> A systems that ranks Nigerian institutions based on certain criteria. helping students find favourable instutions.</p>
 
                     </div>
 
