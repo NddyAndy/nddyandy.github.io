@@ -3,6 +3,8 @@ import React from "react"
 import Layout from '../components/layout'
 
 export default () => (
+
+    
     <Layout>
 
         <div className="container">
@@ -12,7 +14,7 @@ export default () => (
                 <div className="porfolio">
 
                     <div className="portfolio-card">
-                        <h2><a href="#" rel="noopener noreferrer">Teachable.ng</a></h2>
+                        <h2><a href="http://13.59.91.161/" target="_blank"  rel="noopener noreferrer">Teachable.ng</a></h2>
                         <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Javascript(Nodejs)</em></p>
 
                         <p className="description">Teachable helps scouts and parents find competent teachers to hire in the city of Port Harcourt. Still in development though. </p>
@@ -21,7 +23,7 @@ export default () => (
 
                      <div className="portfolio-card">
                         <h2><a href="https://nbte.forum.org.ng/ranking" target="_blank" rel="noopener noreferrer">nbte.forum.org.ng/ranking</a></h2>
-                        <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Javascript(Nodejs)</em></p>
+                        <p className="tech"><em> <span>Tech Used: </span> Vue, Nodejs</em></p>
 
                         <p className="description"> A system that ranks Nigerian institutions based on certain criteria. helping students find favourable instutions.</p>
 
@@ -30,7 +32,7 @@ export default () => (
 
                      <div className="portfolio-card">
                         <h2><a href="https://github.com/ndiecodes/MLM-Solution" target="_blank" rel="noopener noreferrer">MLM Solution</a></h2>
-                        <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Javascript(Nodejs)</em></p>
+                        <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, PHP(Laravel)</em></p>
 
                         <p className="description">A Muliti Level marketing System </p>
 
@@ -55,11 +57,45 @@ export default () => (
 
                     <div className="portfolio-card">
                         <h2><a href="http://nddyacademy.herokuapp.com/" target="_blank" rel="noopener noreferrer">nddyacademy.herokuapp.com</a></h2>
-                        <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Javascript, PHP(Laravel)</em></p>
+                        <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Nodejs</em></p>
 
                         <p className="description">A student resouce App in fullfillment of Andela Learning Community. </p>
 
                     </div>
+
+                    <div className="portfolio-card">
+                        <h2><a href="https://codepen.io/nddyandy/full/VMRyGE" target="_blank" rel="noopener noreferrer">JS Calculator</a></h2>
+                        <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Javascript</em></p>
+
+                        <p className="description">Your regular culculator on a web platform </p>
+
+                    </div> 
+                    
+                    <div className="portfolio-card">
+                        <h2><a href="https://codepen.io/nddyandy/full/zEVvXQ" target="_blank" rel="noopener noreferrer">Pomodoro Clock</a></h2>
+                        <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Javascript</em></p>
+
+                        <p className="description">Wockplace Time Management Web App </p>
+
+                    </div>
+
+                    <div className="portfolio-card">
+                        <h2><a href="https://codepen.io/nddyandy/full/KyXqzZ" target="_blank" rel="noopener noreferrer">Tic Tac Toe</a></h2>
+                        <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Javascript</em></p>
+
+                        <p className="description">A fun tic tac toe game </p>
+
+                    </div>
+
+                    <div className="portfolio-card">
+                        <h2><a href="https://codepen.io/nddyandy/full/jByeeN" target="_blank" rel="noopener noreferrer">Random Qoute Generator</a></h2>
+                        <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Javascript</em></p>
+
+                        <p className="description">Generate and tweet random inspirational quotes! </p>
+
+                    </div>
+
+
 
                     
 

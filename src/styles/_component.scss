@@ -18,9 +18,14 @@
         background-color: rgba(255, 255, 255, 0.815);
         padding: 10px 15px 15px 15px;
         border-radius: 5px;
-        box-shadow: 3px 3px 3px rgba(0,0,0, 0.075);
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);;
         margin-bottom: 40px;
         text-align: left;
+
+        &:hover{
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            transform: scale(1.05) translateY(-4px);
+        }
     
             h2 {
                 border-left: 4px solid $color-secondary;
