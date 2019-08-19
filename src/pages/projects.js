@@ -35,7 +35,7 @@ export default () => (
                     </div>
 
                      <div className="portfolio-card">
-                        <h2><a href="http://nbte.forum.org.ng" target="_blank" rel="noopener noreferrer">nbte.forum.org.ng/ranking</a></h2>
+                        <h2><a href="http://nbte.forum.org.ng" target="_blank" rel="noopener noreferrer">nbte.forum.org.ng</a></h2>
                         <p className="tech"><em> <span>Tech Used: </span> Vue, Nodejs</em></p>
 
                         <p className="description"> A system that ranks Nigerian institutions based on certain criteria. helping students find favourable instutions.</p>
