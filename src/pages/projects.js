@@ -13,16 +13,29 @@ export default () => (
                 <h2 className="heading-main">iBuild</h2>
                 <div className="porfolio">
 
+                <div className="portfolio-card">
+                        <h2><a href="https://paygerr.com/" target="_blank"  rel="noopener noreferrer">Paygerr.com</a></h2>
+                        <p className="tech"><em> <span>Tech Used: </span>Laravel(PHP), HTML/CSS</em></p>
+
+                        <p className="description">Hire expert freelancers for your online job. </p>
+                    </div>
+
                     <div className="portfolio-card">
-                        <h2><a href="http://13.59.91.161/" target="_blank"  rel="noopener noreferrer">Teachable.ng</a></h2>
+                        <h2><a href="https://pays4life.com/" target="_blank"  rel="noopener noreferrer">Pays4life</a></h2>
+                        <p className="tech"><em> <span>Tech Used: </span>Adonisjs(nodejs), Mysql</em></p>
+
+                        <p className="description">Pays4life offers VTU and Bill payments service along with affiliate programs. </p>
+                    </div>
+
+                    <div className="portfolio-card">
+                        <h2><a href="http://teachable.ng/" target="_blank"  rel="noopener noreferrer">Teachable.ng</a></h2>
                         <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Javascript(Nodejs)</em></p>
 
                         <p className="description">Teachable helps scouts and parents find competent teachers to hire in the city of Port Harcourt. Still in development though. </p>
-
                     </div>
 
                      <div className="portfolio-card">
-                        <h2><a href="https://nbte.forum.org.ng/ranking" target="_blank" rel="noopener noreferrer">nbte.forum.org.ng/ranking</a></h2>
+                        <h2><a href="http://nbte.forum.org.ng/ranking" target="_blank" rel="noopener noreferrer">nbte.forum.org.ng/ranking</a></h2>
                         <p className="tech"><em> <span>Tech Used: </span> Vue, Nodejs</em></p>
 
                         <p className="description"> A system that ranks Nigerian institutions based on certain criteria. helping students find favourable instutions.</p>
@@ -38,13 +51,7 @@ export default () => (
 
                     </div>
 
-                    <div className="portfolio-card">
-                        <h2><a href="https://xpresshipment.com" target="_blank" rel="noopener noreferrer">Xpresshipment.com</a></h2>
-                        <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Javascript, PHP(Laravel)</em></p>
-
-                        <p className="description">An inventory and notification web app for a shipment company </p>
-
-                    </div>
+               
 
 
                      <div className="portfolio-card">
