@@ -17,14 +17,14 @@ export default () => (
                         <h2><a href="https://paygerr.com/" target="_blank"  rel="noopener noreferrer">Paygerr.com</a></h2>
                         <p className="tech"><em> <span>Tech Used: </span>Laravel(PHP), HTML/CSS</em></p>
 
-                        <p className="description">Hire expert freelancers for your online job. </p>
+                        <p className="description">With Paygerr you can post jobs, get proposals and hire your ideal freelancer. </p>
                     </div>
 
                     <div className="portfolio-card">
                         <h2><a href="https://pays4life.com/" target="_blank"  rel="noopener noreferrer">Pays4life</a></h2>
                         <p className="tech"><em> <span>Tech Used: </span>Adonisjs(nodejs), Mysql</em></p>
 
-                        <p className="description">Pays4life offers VTU and Bill payments service along with affiliate programs. </p>
+                        <p className="description">Pays4life offers VTU and Bill payment services along with affiliate programs. </p>
                     </div>
 
                     <div className="portfolio-card">
