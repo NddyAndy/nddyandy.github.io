@@ -61,14 +61,10 @@ query Blog {
           title
           tags
           url
-          comments_count
-          positive_reactions_count
           tag_list
           readable_publish_date
           id
-          social_image
           description
-          published_at
         }
       }
     }
