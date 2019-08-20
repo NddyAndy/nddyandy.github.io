@@ -8,7 +8,7 @@ export default () => (
     <Layout>
 
         <SEO
-        title="Projects | Ndifreke Friday(ndiecodes)"
+        title="Projects | Ndifreke Friday (ndiecodes)"
       />  
 
         <div className="container">
@@ -17,13 +17,6 @@ export default () => (
                 <h2 className="heading-main">iBuild</h2>
                 <div className="porfolio">
 
-                <div className="portfolio-card">
-                        <h2><a href="https://paygerr.com/" target="_blank"  rel="noopener noreferrer">Paygerr.com</a></h2>
-                        <p className="tech"><em> <span>Tech Used: </span>Laravel(PHP), HTML/CSS</em></p>
-
-                        <p className="description">With Paygerr you can post jobs, get proposals and hire your ideal freelancer. </p>
-                    </div>
-
                     <div className="portfolio-card">
                         <h2><a href="https://pays4life.com/" target="_blank"  rel="noopener noreferrer">Pays4life</a></h2>
                         <p className="tech"><em> <span>Tech Used: </span>Adonisjs(nodejs), Mysql</em></p>
@@ -31,6 +24,14 @@ export default () => (
                         <p className="description">Pays4life offers VTU and Bill payment services along with affiliate programs. </p>
                     </div>
 
+                    <div className="portfolio-card">
+                        <h2><a href="https://paygerr.com/" target="_blank"  rel="noopener noreferrer">Paygerr.com</a></h2>
+                        <p className="tech"><em> <span>Tech Used: </span>Laravel(PHP), HTML/CSS</em></p>
+
+                        <p className="description">With Paygerr you can post jobs, get proposals and hire your ideal freelancer. </p>
+                    </div>
+
+            
                     <div className="portfolio-card">
                         <h2><a href="http://teachable.ng/" target="_blank"  rel="noopener noreferrer">Teachable.ng</a></h2>
                         <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Javascript(Nodejs)</em></p>

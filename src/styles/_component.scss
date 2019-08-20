@@ -72,6 +72,7 @@
 
 
 .contact {
+   
     h1 {
         font-size: 2.5rem;
         color: $color-secondary;
@@ -114,4 +115,53 @@
             }
         }
     }
+}
+
+
+.blog {
+    color: $color-dark;
+    max-width: 700px;
+    margin: 0 auto;
+
+    
+    h2 {
+        font-family: $font-text;
+        font-size: 2rem;
+        margin-top: 1px;
+    }
+    em {
+        color: $color-secondary;
+    }
+    p {
+        font-family: $font-text;
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+    .blog-container {
+        margin-top: 0;
+        .blog-card {
+            margin-bottom: 40px;
+
+            a {
+                text-decoration: none;
+                font-size: 1.4rem;
+                color: inherit;
+                display: inline;
+                // font-size: inherit;
+                padding-bottom: 3px;
+                border-bottom: 1px solid $color-secondary;
+    
+                &:hover {
+                    background-color: $color-secondary;
+                    color: $color-white;
+                    padding: 3px 5px;
+                    span {
+                        margin-left: 2px;
+                    }
+                }
+            }
+        }
+
+    }
+   
 }

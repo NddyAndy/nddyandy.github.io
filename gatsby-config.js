@@ -12,12 +12,19 @@ module.exports = {
     description: `Hi. I'm Ndie a Software Developer based out of Port Harcourt, Nigeria.`,
     author: `@ndiecodes`,
     url: "https://ndiecodes.github.io", // No trailing slash allowed!
-    image: "/images/ndie.jpg", // Path to your image you placed in the 'static' folder
+    image: "/images/ndie.jpg", // Path to your image placed in the 'static' folder
     twitterUsername: "@ndiecodes",
     keywords: ['ndiecodes', 'portfolio', 'software developer', 'developer', 'web developer']
   },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: "gatsby-source-dev",
+      options: {
+        // This is your username on Dev.to
+        username: 'ndiecodes'
+      }
+    }
   ]
 }

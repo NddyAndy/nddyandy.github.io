@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 export default () => (
   <Layout>
      <SEO
-        title="About | Ndifreke Friday(ndiecodes)"
+        title="About | Ndifreke Friday (ndiecodes)"
       />
 
     <div className="container">
