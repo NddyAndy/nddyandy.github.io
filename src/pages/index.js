@@ -1,10 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import SEO from "../components/seo"
 import Layout from "../components/layout"
 
 export default () => (
   <Layout>
+     <SEO
+        title="About | Ndifreke Friday(ndiecodes)"
+      />
+
     <div className="container">
       <h1 className="heading mt">
         <span className="heading-primary">

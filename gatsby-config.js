@@ -8,8 +8,16 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: `Ndifreke Friday`,
-    description: `Hi. I'm Ndie a developer based out of Port Harcourt `,
-    author: `@ndiecodes`
+    titleTemplate: "%s · Software Developer",
+    description: `Hi. I'm Ndie a Software Developer based out of Port Harcourt, Nigeria.`,
+    author: `@ndiecodes`,
+    url: "https://ndiecodes.github.io", // No trailing slash allowed!
+    image: "/images/ndie.jpg", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@ndiecodes",
+    keywords: ['ndiecodes', 'portfolio', 'software developer', 'developer', 'web developer']
   },
-  plugins: [`gatsby-plugin-sass`]
+  plugins: [
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-react-helmet`,
+  ]
 }
