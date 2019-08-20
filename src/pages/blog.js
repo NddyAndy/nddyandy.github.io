@@ -34,7 +34,7 @@ import { graphql } from "gatsby"
                     <em> {node.article.readable_publish_date} </em>
                     <h2 >{node.article.title}</h2>
                     <p> {node.article.description} </p>
-                    <a href={node.article.url} target="_blank">Read more <span> &rarr; </span></a>
+                    <a href={node.article.url} target="_blank" rel="noopener noreferrer">Read more <span> &rarr; </span></a>
                     </div>
                 ))}
                 </div>
