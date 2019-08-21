@@ -53,6 +53,8 @@
 
                     &:checked ~ .nav-nav {
                         opacity: 1;
+                        top: 0;
+                        left: 0;
                         width: 100%;
                     }
 
@@ -178,8 +180,8 @@
                 .nav-nav {
                     height: 100vh;
                     position: fixed;
-                    top: 0;
-                    left: 0;
+                    top: -100px;
+                    left: -200px;
                     z-index: 400;
 
                     opacity: 0;
