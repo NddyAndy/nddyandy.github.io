@@ -19,7 +19,7 @@ export default () => (
 
         <span className="heading-secondary">I'm Ndifreke Friday</span>
         <span className="heading-tertiary mt">
-          A Software developer currently living in Lagos, Nigeria. I build
+          A Software Developer currently living in Lagos, Nigeria. I build
           responsive websites and scalable APIs. I am problem solving and always
           excited when it comes to mentoring aspiring developers.
         </span>
