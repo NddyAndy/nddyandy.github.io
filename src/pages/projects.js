@@ -15,13 +15,52 @@ export default () => (
             <div className="portfolio-area">
  
                 <h2 className="heading-main">iBuild</h2>
+
+
                 <div className="porfolio">
+
+
+                    <div className="portfolio-card">
+                        <h2><a href="http://teachable.ng/" target="_blank" rel="noopener noreferrer">Kiitec.com</a></h2>
+                        <p className="tech"><em> <span>Tech Used: </span>Laravel,Vuejs,Nginx</em></p>
+
+                        <p className="description">Browse, discover, and customize products that show off the real you. Shop products that can be customized to suit your every need and taste </p>
+                    </div>
+
+                    <div className="portfolio-card">
+                        <h2><a href="http://nbte.forum.org.ng" target="_blank" rel="noopener noreferrer">Kiitec Vendor APP</a></h2>
+                        <p className="tech"><em> <span>Tech Used: </span>Laravel, Vuejs</em></p>
+
+                        <p className="description"> Manage your online store through the Kiitec.com vendor app. Add products, edit products, create and add customization profiles, and track the success of your store.</p>
+
+                    </div>
+
+
+                    <div className="portfolio-card">
+                        <h2><a href="http://nbte.forum.org.ng" target="_blank" rel="noopener noreferrer">Livevend.com</a></h2>
+                        <p className="tech"><em> <span>Tech Used: </span>Nodejs (API Patch), Devops(nginx, jenkins)</em></p>
+
+                        <p className="description"> Livevend is a construction and real estate price discovery platform that provides realtime prices from all markets across nigeria.</p>
+
+                    </div>
+
 
                     <div className="portfolio-card">
                         <h2><a href="https://pays4life.com/" target="_blank"  rel="noopener noreferrer">Pays4life</a></h2>
                         <p className="tech"><em> <span>Tech Used: </span>Adonisjs(nodejs), Mysql</em></p>
 
                         <p className="description">Pays4life offers VTU and Bill payment services along with affiliate programs. </p>
+                    </div>
+
+           
+
+
+                    <div className="portfolio-card">
+                        <h2><a href="https://github.com/ndiecodes/MLM-Solution" target="_blank" rel="noopener noreferrer">MLM Solution</a></h2>
+                        <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, PHP(Laravel)</em></p>
+
+                        <p className="description">An Opensource Muliti Level marketing Starter</p>
+
                     </div>
 
                     <div className="portfolio-card">
@@ -31,98 +70,7 @@ export default () => (
                         <p className="description">A reactjs and tailwindcss exercise </p>
                     </div>
 
-
-                    <div className="portfolio-card">
-                        <h2><a href="https://github.com/ndiecodes/MLM-Solution" target="_blank" rel="noopener noreferrer">MLM Solution</a></h2>
-                        <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, PHP(Laravel)</em></p>
-
-                        <p className="description">A Muliti Level marketing System </p>
-
-                    </div>
-
-                    <div className="portfolio-card">
-                        <h2><a href="https://github.com/ndiecodes/jsonplacholder-api-exercise" target="_blank"  rel="noopener noreferrer">Jsonplaceholder</a></h2>
-                        <p className="tech"><em> <span>Tech Used: </span> Vue, tailwindcss </em></p>
-
-                        <p className="description">Jsonplaceholder Vue Exercise </p>
-                    </div>
-                    
-
-                    <div className="portfolio-card">
-                        <h2><a href="https://paygerr.com/" target="_blank"  rel="noopener noreferrer">Paygerr.com</a></h2>
-                        <p className="tech"><em> <span>Tech Used: </span>Laravel(PHP), HTML/CSS</em></p>
-
-                        <p className="description">With Paygerr you can post jobs, get proposals and hire your ideal freelancer. </p>
-                    </div>
-
-
-
-
-
-            
-
-
-            
-                    <div className="portfolio-card">
-                        <h2><a href="http://teachable.ng/" target="_blank"  rel="noopener noreferrer">Teachable.ng</a></h2>
-                        <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Javascript(Nodejs)</em></p>
-
-                        <p className="description">Teachable helps scouts and parents find competent teachers to hire in the city of Port Harcourt. Still in development though. </p>
-                    </div>
-
-                     <div className="portfolio-card">
-                        <h2><a href="http://nbte.forum.org.ng" target="_blank" rel="noopener noreferrer">nbte.forum.org.ng</a></h2>
-                        <p className="tech"><em> <span>Tech Used: </span> Vue, Nodejs</em></p>
-
-                        <p className="description"> A system that ranks Nigerian institutions based on certain criteria. helping students find favourable instutions.</p>
-
-                    </div>
-
-
-
-               
-
-
-                     <div className="portfolio-card">
-                        <h2><a href="https://optisoft.ng/" target="_blank" rel="noopener noreferrer">Optisoft.ng</a></h2>
-                        <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Javascript, PHP(Laravel)</em></p>
-
-                        <p className="description">Company Portfolio </p>
-
-                    </div>
-
-                    <div className="portfolio-card">
-                        <h2><a href="http://nddyacademy.herokuapp.com/" target="_blank" rel="noopener noreferrer">nddyacademy.herokuapp.com</a></h2>
-                        <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Nodejs</em></p>
-
-                        <p className="description">A student resouce App in fullfillment of Andela Learning Community. </p>
-
-                    </div>
-
-                    <div className="portfolio-card">
-                        <h2><a href="https://codepen.io/ndiecodes/full/VMRyGE" target="_blank" rel="noopener noreferrer">JS Calculator</a></h2>
-                        <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Javascript</em></p>
-
-                        <p className="description">Your regular culculator on a web platform </p>
-
-                    </div> 
-                    
-                    <div className="portfolio-card">
-                        <h2><a href="https://codepen.io/ndiecodes/full/zEVvXQ" target="_blank" rel="noopener noreferrer">Pomodoro Clock</a></h2>
-                        <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Javascript</em></p>
-
-                        <p className="description">Wockplace Time Management Web App </p>
-
-                    </div>
-
-                    <div className="portfolio-card">
-                        <h2><a href="https://codepen.io/ndiecodes/full/KyXqzZ" target="_blank" rel="noopener noreferrer">Tic Tac Toe</a></h2>
-                        <p className="tech"><em> <span>Tech Used: </span> HTML/CSS, Javascript</em></p>
-
-                        <p className="description">A fun tic tac toe game </p>
-
-                    </div>
-
+              
 
                     
 
