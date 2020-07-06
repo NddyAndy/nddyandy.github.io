@@ -40,7 +40,13 @@ export default () => (
           >
             github repository
           </a>
-          .
+          . Also checkout my     <a
+            href="https://gist.github.com/ndiecodes"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+           code dumpster
+          </a> because why not :).
         </span>
       </h1>
     </div>
