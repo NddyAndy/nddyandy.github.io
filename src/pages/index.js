@@ -25,14 +25,13 @@ export default () => (
         </span>
 
         <span className="heading-tertiary">
-          My core skills are <b>HTML</b>, <b>CSS</b> (SASS), <b>Javascript</b>{" "}
-          (React, Vue, <b>Nodejs</b>) and <b>PHP</b>(Laravel). I also have
-          experience with DBMS [ <b>Mysql</b> / NoSql (<b>mongoDB</b>)], <b>git</b> version control and <b>Linux</b>.
+          My core skills are  <b>Javascript</b>{" "}
+          (<b>Nodejs</b>, React, Vue) , <b>PHP</b>(Laravel), <b>Go </b> and HTML/CSS (SASS). I also have
+          experience with DBMS [ <b>Mysql</b> / NoSql (<b>mongoDB</b>)], <b>Nginx Web Server</b> and <b>Jenkins Automation Server</b>.
         </span>
         <span className="heading-tertiary">
           I have completed <Link to="projects">projects</Link> alone and also
-          worked with different teams. I have mentored over 20 students
-          (directly) in web development. Some of the projects I am allowed to
+          worked with different teams. Some of the projects I am allowed to
           showcase are in my{" "}
           <a
             href="https://github.com/ndiecodes"
