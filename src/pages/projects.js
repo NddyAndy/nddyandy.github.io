@@ -20,6 +20,15 @@ export default () => (
                 <div className="porfolio">
 
 
+
+                <div className="portfolio-card">
+                        <h2><a href="https://www.npmjs.com/package/node-mail-helper" target="_blank"  rel="noopener noreferrer">Node-mail-helper</a></h2>
+                        <p className="tech"><em> <span>Tech Used: </span> Nodejs </em></p>
+
+                        <p className="description">Nodemailer Helper For Sending Emails With Ejs Templating. </p>
+                    </div>
+
+
                     <div className="portfolio-card">
                         <h2><a href="https://kiitec.com/" target="_blank" rel="noopener noreferrer">Kiitec.com</a></h2>
                         <p className="tech"><em> <span>Tech Used: </span>Laravel,Vuejs,Nginx</em></p>
@@ -63,12 +72,7 @@ export default () => (
 
                     </div>
 
-                    <div className="portfolio-card">
-                        <h2><a href="https://soundwave-ndiecodes.netlify.com/" target="_blank"  rel="noopener noreferrer">Soundwave</a></h2>
-                        <p className="tech"><em> <span>Tech Used: </span> React, tailwindcss </em></p>
-
-                        <p className="description">A reactjs and tailwindcss exercise </p>
-                    </div>
+                    
 
               
 
